@@ -14,6 +14,7 @@ class App extends Component{
     <div className="App">
       <Hello/>
       <Message  />
+      <h1>hi</h1>
       <Counter/>
     </div>
   );
