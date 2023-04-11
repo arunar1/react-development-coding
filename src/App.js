@@ -6,6 +6,8 @@ import Message from './components/Message'
 
 import Counter from './components/Counter';
 
+import Stylesheet from './components/Stylesheet';
+
 class App extends Component{
   render(){
   return (
@@ -13,6 +15,7 @@ class App extends Component{
       <Message  />
       <h1>hi</h1>
       <Counter/>
+      <Stylesheet/>
     </div>
   );
   }
