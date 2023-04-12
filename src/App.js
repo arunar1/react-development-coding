@@ -8,6 +8,8 @@ import Counter from './components/Counter';
 
 import Stylesheet from './components/Stylesheet';
 
+import Form from './components/Form';
+
 class App extends Component{
   render(){
   return (
@@ -16,6 +18,7 @@ class App extends Component{
       <h1>hi</h1>
       <Counter/>
       <Stylesheet/>
+      <Form/>
     </div>
   );
   }
