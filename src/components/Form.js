@@ -31,12 +31,15 @@ export class Form extends Component {
             topic:event.target.value
         })
     }
+    handleSubmit=(event)=>{
+        alert(`${this.state.username} ${this.state.topic} ${this.state.comments}`)
+    }
 
 
     render() {
         return (
             <div>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <label>UserName:</label>
                     <input type='text' value={this.state.username} onChange={this.handlerUserNameChange} />
                     <p>{this.state.username}</p>
